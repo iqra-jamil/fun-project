@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding:0%;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #708090; /* Slate Gray */
+    background-image: url("https://media.istockphoto.com/id/1338039721/photo/dark-rough-cement-wall-background-for-graphic-design.jpg?s=612x612&w=0&k=20&c=Ld6kxV52TOhH52r5GN3oIZTNfdW5QlR3U3baGcPkoTI=");
+  background-size: cover;
+}
+
+h1{
+   font-size: 60px;
+    position: absolute;
+    top:35%;
+    color: #fff;
+    
+}
+
+#yes{
+ height: 40px;
+ width: 90px;
+ padding: 10px 20px;
+ font-size: 20px;
+ font-weight: 900;
+ border: none;
+ border-radius: 5px;
+margin: 0 2vw;
+ background-color:#800020; 
+ color: white;
+ transition:transform 0.3s ease, background-color 0.3s ease;
+ 
+}
+#no:hover {
+    background-color:#770737; 
+    color: white;
+    transform: scale(1.1);
+}
+#no{
+    height: 40px;
+    width: 90px;
+    height: 40px;
+    width: 90px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    
+    background-color: #800020; 
+    color: white;
+
+   }
+  
